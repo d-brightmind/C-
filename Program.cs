@@ -30,7 +30,9 @@ namespace Basics1
             LargestNum lrg = new LargestNum();
             lrg.ChkLargestNum();
 
-            //check largest number using condition
+            //Welcome User
+            welcomeUser wel = new welcomeUser();
+            wel.greetUser("name");
         }
     }
 }
